@@ -1,0 +1,30 @@
+{
+  "stable": {
+    "version": "1.2.2",
+    "date": "2026-05-15",
+    "url": "https://github.com/l-e-m-u-e-l/oneblock-app/releases/download/v1.2.2/Server-Compartido-1.2.2.exe",
+    "sha256": "5fcc711ca0afd82e509af2dfd675f8d1f8e68a4a18729e60399e6754234f1646",
+    "notes_md": "🆕 v1.2.2\n• System tray (la X minimiza a la bandeja)\n• Notificación cuando el server queda listo\n• Botón único contextual + chips de estado\n• Jugadores conectados + uptime\n• Fix doble-host: chequeo en vivo si Alex ya hostea\n• Usa tu Syncthing real (SyncTrayzor), no uno vacío\n• Onboarding la primera vez + Acerca de + copiar/guardar log"
+  },
+  "min_required": "1.0.0",
+  "history": [
+    {
+      "version": "1.2.2",
+      "date": "2026-05-15",
+      "channel": "stable",
+      "notes_md": "System tray, notificaciones, fix doble-host (ping en vivo), Syncthing real, onboarding, Acerca de, layout, copiar/guardar log."
+    },
+    {
+      "version": "1.1.0",
+      "date": "2026-05-14",
+      "channel": "stable",
+      "notes_md": "Single instance, updates in-app, Syncthing embebido (luego revertido al real en 1.2.2)."
+    },
+    {
+      "version": "1.0.0",
+      "date": "2026-05-12",
+      "channel": "stable",
+      "notes_md": "Versión inicial entregada a Alex."
+    }
+  ]
+}
