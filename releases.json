@@ -1,13 +1,19 @@
 {
   "stable": {
-    "version": "1.2.3",
+    "version": "1.3.0",
     "date": "2026-05-15",
-    "url": "https://github.com/l-e-m-u-e-l/oneblock-app/releases/download/v1.2.3/Server-Compartido-1.2.3.exe",
-    "sha256": "ae56377ca6d4639e0d99b2936acd153b7ca38c1c6e333d1ca8d8dd07d61a93db",
-    "notes_md": "🆕 v1.2.3\n• Aviso si quedó una versión vieja abierta en la bandeja (te dice salir de ella antes de usar la nueva)\n\nIncluye todo lo de v1.2.2:\n• System tray + notificación de server listo\n• Botón único contextual + chips de estado\n• Jugadores conectados + uptime\n• Fix doble-host (chequeo en vivo)\n• Usa tu Syncthing real\n• Onboarding + Acerca de + copiar/guardar log"
+    "url": "https://github.com/l-e-m-u-e-l/oneblock-app/releases/download/v1.3.0/Server-Compartido-1.3.0.exe",
+    "sha256": "b6d998d1919099c71e523deaa7ecc13a7be4adc8ac00abbdbfe86d2ab6a350c1",
+    "notes_md": "🆕 v1.3.0 — Todo en una sola ventana\n• Ya no se abren ventanas nuevas: Ajustes, Acerca de, Bienvenida, Novedades y avisos ahora son paneles DENTRO de la misma ventana, con botón ← Volver\n• Confirmaciones y errores se muestran inline (sin pop-ups del sistema)\n\nIncluye todo lo de v1.2.x:\n• System tray + notificación de server listo\n• Botón único contextual + chips de estado\n• Jugadores conectados + uptime\n• Fix doble-host (chequeo en vivo)\n• Usa tu Syncthing real\n• Auto-update + copiar/guardar log"
   },
   "min_required": "1.0.0",
   "history": [
+    {
+      "version": "1.3.0",
+      "date": "2026-05-15",
+      "channel": "stable",
+      "notes_md": "UI: todo en una sola ventana (paneles internos en vez de Toplevels), avisos/confirmaciones inline reemplazan messagebox."
+    },
     {
       "version": "1.2.3",
       "date": "2026-05-15",
