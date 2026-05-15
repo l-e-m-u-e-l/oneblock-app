@@ -1,13 +1,19 @@
 {
   "stable": {
-    "version": "1.2.2",
+    "version": "1.2.3",
     "date": "2026-05-15",
-    "url": "https://github.com/l-e-m-u-e-l/oneblock-app/releases/download/v1.2.2/Server-Compartido-1.2.2.exe",
-    "sha256": "5fcc711ca0afd82e509af2dfd675f8d1f8e68a4a18729e60399e6754234f1646",
-    "notes_md": "🆕 v1.2.2\n• System tray (la X minimiza a la bandeja)\n• Notificación cuando el server queda listo\n• Botón único contextual + chips de estado\n• Jugadores conectados + uptime\n• Fix doble-host: chequeo en vivo si Alex ya hostea\n• Usa tu Syncthing real (SyncTrayzor), no uno vacío\n• Onboarding la primera vez + Acerca de + copiar/guardar log"
+    "url": "https://github.com/l-e-m-u-e-l/oneblock-app/releases/download/v1.2.3/Server-Compartido-1.2.3.exe",
+    "sha256": "ae56377ca6d4639e0d99b2936acd153b7ca38c1c6e333d1ca8d8dd07d61a93db",
+    "notes_md": "🆕 v1.2.3\n• Aviso si quedó una versión vieja abierta en la bandeja (te dice salir de ella antes de usar la nueva)\n\nIncluye todo lo de v1.2.2:\n• System tray + notificación de server listo\n• Botón único contextual + chips de estado\n• Jugadores conectados + uptime\n• Fix doble-host (chequeo en vivo)\n• Usa tu Syncthing real\n• Onboarding + Acerca de + copiar/guardar log"
   },
   "min_required": "1.0.0",
   "history": [
+    {
+      "version": "1.2.3",
+      "date": "2026-05-15",
+      "channel": "stable",
+      "notes_md": "Aviso de versión vieja abierta en la bandeja (single-instance ahora compara versiones)."
+    },
     {
       "version": "1.2.2",
       "date": "2026-05-15",
