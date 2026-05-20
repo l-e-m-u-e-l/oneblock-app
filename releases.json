@@ -1,13 +1,19 @@
 {
   "stable": {
-    "version": "1.3.1",
-    "date": "2026-05-15",
-    "url": "https://github.com/l-e-m-u-e-l/oneblock-app/releases/download/v1.3.1/Server-Compartido-1.3.1.exe",
-    "sha256": "a5e8b0c57de2f07596eef3298e7fb8df8557baabaaae4821358eb3765fd21c13",
-    "notes_md": "🆕 v1.3.1 — Dominio automático\n• Ya NO tenés que escribir tu dominio playit a mano: la app lo detecta solo cuando prende el túnel y te lo muestra para pasárselo a tu amigo\n\nIncluye v1.3.0 (todo en una sola ventana):\n• Ajustes, Acerca de, Bienvenida, Novedades y avisos son paneles DENTRO de la misma ventana\n• Confirmaciones y errores inline (sin pop-ups del sistema)\n\nY todo lo de v1.2.x: system tray, fix doble-host (chequeo en vivo), Syncthing real, auto-update."
+    "version": "1.5.0",
+    "date": "2026-05-20",
+    "url": "https://github.com/l-e-m-u-e-l/oneblock-app/releases/download/v1.5.0/Server-Compartido-1.5.0.exe",
+    "sha256": "d97b89c8fa29fce38e57d84a5ccff58264c20052d2f745818b1bc377e5491fb9",
+    "notes_md": "🆕 v1.5.0 — Personalización, RAM y ajustes por server\n• Apariencia: 3 presets (medianoche / carbón / bosque) + colores libres (fondo + acento)\n• Rendimiento: slider de RAM con tope automático (deja 3 GB libres) + view/simulation distance\n• Editor de server.properties por servidor: MOTD, dificultad, gamemode, PvP, hardcore, command-block, view/sim — con backup automático\n• Dar OP a un jugador desde la app (en vivo o al próximo arranque)\n• Paquete de mods ahora se genera por-servidor (no global)\n• Amigos / Syncthing: emparejamiento automático con badges de estado en vivo; pendientes encolados si Syncthing está apagado\n\nIncluye todo lo anterior (interfaz pywebview, modelo Amigos global, multi-server, system tray, auto-update, anti-doble-host)."
   },
   "min_required": "1.0.0",
   "history": [
+    {
+      "version": "1.5.0",
+      "date": "2026-05-20",
+      "channel": "stable",
+      "notes_md": "Personalización (presets + colores), slider de RAM con clamp por hardware, editor de server.properties + OP por server, paquete de mods por-servidor, emparejamiento Syncthing automático con badges y cola de pendientes. Refactor interno: lógica modularizada en core/ y web/."
+    },
     {
       "version": "1.3.1",
       "date": "2026-05-15",
