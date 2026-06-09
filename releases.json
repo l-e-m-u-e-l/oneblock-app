@@ -1,13 +1,19 @@
 {
   "stable": {
-    "version": "1.9.0",
+    "version": "1.10.0",
     "date": "2026-06-09",
-    "url": "https://github.com/l-e-m-u-e-l/oneblock-app/releases/download/v1.9.0/Server-Compartido-1.9.0.exe",
-    "sha256": "0015df21dbe39505075b573a5aa53dc7d103cf2e4c0c22021e294d5823ec7b60",
-    "notes_md": "🆕 v1.9.0 — Multi-versión, Java incluido y arranque más simple\n• Crear servers de varias versiones de Minecraft (1.18 → 1.21) desde un solo botón \"Agregar server\" (crear nuevo o usar uno existente)\n• Java 21 portátil incluido: ya no hace falta instalar Java; se descarga solo la primera vez\n• Carpeta de servers gestionada automáticamente (no más rutas a mano) + atajos para abrir la carpeta del server / mods\n• La versión de Minecraft de cada server se ve junto a su nombre y en Inicio\n• Buzón y centro de notificaciones entre amigos (novedades dentro de la app)\n• Primer arranque más limpio (sin servers fantasma) y config unificada por usuario\n• Syncthing actualizado (v2) con verificación de sincronización más robusta\n\nIncluye todo lo anterior."
+    "url": "https://github.com/l-e-m-u-e-l/oneblock-app/releases/download/v1.10.0/Server-Compartido-1.10.0.exe",
+    "sha256": "8e0a4dccc25882b85e097f2ad7faca9f9586c730de00990bf95b203568998989",
+    "notes_md": "🆕 v1.10.0 — Cualquier versión de Minecraft, con su Java automático\n• Ahora podés crear servers de CUALQUIER versión hasta la última (la lista se actualiza sola desde internet, no se queda en 1.21)\n• El Java correcto para cada versión se baja solo: las versiones nuevas (26.x) usan Java 25; las 1.18 → 1.21 siguen con Java 21\n• Fix: el server ya no se queda trabado en \"Guardando mundo...\" al arrancar; el botón Apagar siempre responde\n• Fabric installer actualizado al último estable (necesario para las versiones nuevas)\n\nIncluye todo lo anterior."
   },
   "min_required": "1.0.0",
   "history": [
+    {
+      "version": "1.10.0",
+      "date": "2026-06-09",
+      "channel": "stable",
+      "notes_md": "Crear servers de cualquier versión de Minecraft hasta la última (lista en vivo desde Fabric meta, ya no tope 1.21), con descarga automática del Java correcto por versión (multi-Java: 26.x→Java 25, 1.18→1.21→Java 21, retrocompatible). Fabric installer al último estable en vivo (1.1.1). Fix del bug \"Guardando mundo...\" que trababa el apagado por autosaves rutinarios del arranque."
+    },
     {
       "version": "1.9.0",
       "date": "2026-06-09",
