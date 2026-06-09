@@ -1,13 +1,37 @@
 {
   "stable": {
-    "version": "1.5.0",
-    "date": "2026-05-20",
-    "url": "https://github.com/l-e-m-u-e-l/oneblock-app/releases/download/v1.5.0/Server-Compartido-1.5.0.exe",
-    "sha256": "d97b89c8fa29fce38e57d84a5ccff58264c20052d2f745818b1bc377e5491fb9",
-    "notes_md": "🆕 v1.5.0 — Personalización, RAM y ajustes por server\n• Apariencia: 3 presets (medianoche / carbón / bosque) + colores libres (fondo + acento)\n• Rendimiento: slider de RAM con tope automático (deja 3 GB libres) + view/simulation distance\n• Editor de server.properties por servidor: MOTD, dificultad, gamemode, PvP, hardcore, command-block, view/sim — con backup automático\n• Dar OP a un jugador desde la app (en vivo o al próximo arranque)\n• Paquete de mods ahora se genera por-servidor (no global)\n• Amigos / Syncthing: emparejamiento automático con badges de estado en vivo; pendientes encolados si Syncthing está apagado\n\nIncluye todo lo anterior (interfaz pywebview, modelo Amigos global, multi-server, system tray, auto-update, anti-doble-host)."
+    "version": "1.9.0",
+    "date": "2026-06-09",
+    "url": "https://github.com/l-e-m-u-e-l/oneblock-app/releases/download/v1.9.0/Server-Compartido-1.9.0.exe",
+    "sha256": "0015df21dbe39505075b573a5aa53dc7d103cf2e4c0c22021e294d5823ec7b60",
+    "notes_md": "🆕 v1.9.0 — Multi-versión, Java incluido y arranque más simple\n• Crear servers de varias versiones de Minecraft (1.18 → 1.21) desde un solo botón \"Agregar server\" (crear nuevo o usar uno existente)\n• Java 21 portátil incluido: ya no hace falta instalar Java; se descarga solo la primera vez\n• Carpeta de servers gestionada automáticamente (no más rutas a mano) + atajos para abrir la carpeta del server / mods\n• La versión de Minecraft de cada server se ve junto a su nombre y en Inicio\n• Buzón y centro de notificaciones entre amigos (novedades dentro de la app)\n• Primer arranque más limpio (sin servers fantasma) y config unificada por usuario\n• Syncthing actualizado (v2) con verificación de sincronización más robusta\n\nIncluye todo lo anterior."
   },
   "min_required": "1.0.0",
   "history": [
+    {
+      "version": "1.9.0",
+      "date": "2026-06-09",
+      "channel": "stable",
+      "notes_md": "Selector y vista de versión de Minecraft por server (1.18→1.21), botón único \"Agregar server\" (crear nuevo / usar existente), Java 21 portátil incluido, raíz de servers gestionada, atajos para abrir carpeta del server/mods, arranque desde cero limpio (sin servers fantasma) y fix de Syncthing v2."
+    },
+    {
+      "version": "1.8.0",
+      "date": "2026-06-09",
+      "channel": "stable",
+      "notes_md": "Integración de multi-versión + Java 21 portátil + raíz de servers gestionada (Fases B/C/D), centro de notificaciones/novedades dentro de la app y aviso de actualización obligatoria."
+    },
+    {
+      "version": "1.7.0",
+      "date": "2026-06-06",
+      "channel": "stable",
+      "notes_md": "Centro de notificaciones en la app (Fase B2): avisos de turnos y cambios entre amigos, con badge de no leídas."
+    },
+    {
+      "version": "1.6.0",
+      "date": "2026-06-06",
+      "channel": "stable",
+      "notes_md": "Buzón por Syncthing (Fase B1): motor para mensajes y avisos entre amigos sin necesidad de un servidor central."
+    },
     {
       "version": "1.5.0",
       "date": "2026-05-20",
